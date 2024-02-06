@@ -1,0 +1,9 @@
+<e>  ::=  <e>+<e>|
+          <e>-<e>|
+          <e>*<e>|
+          pdiv(<e>,<e>)|
+          np.sin(<e>)|
+          log(<e>)|
+          exp(<e>)|
+          x|
+          pdiv(x, 2*x)*<e>

@@ -89,3 +89,9 @@ def less_than_or_equal(a, b):
 def if_(i, o0, o1):
     """If _ than _ else _"""
     return np.where(i, o0, o1)
+
+def exp(n):
+    return np.exp(n)
+
+def log(n):
+    return np.log(n)
